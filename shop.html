@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprar AI Prompt Lab | EducationalLabsHDT</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f1f5f9; color: #1e293b; min-height: 100vh; display: flex; flex-direction: column; }
+    header { background: #0f172a; color: white; padding: 1rem 0; }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+    .logo { font-weight: 700; font-size: 1.2rem; }
+    .logo span { color: #38bdf8; }
+    main { flex: 1; padding: 50px 0; }
+    .card { background: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; }
+    @media (max-width: 700px) { .card { grid-template-columns: 1fr; } }
+    .card-left { background: linear-gradient(135deg, #0f172a, #1e3a5f); color: white; padding: 40px; }
+    .card-left h1 { font-size: 1.6rem; margin-bottom: 12px; }
+    .card-left ul { list-style: none; margin: 24px 0; }
+    .card-left li { padding: 8px 0; display: flex; gap: 10px; }
+    .card-left li:before { content: "✓"; color: #22c55e; font-weight: bold; }
+    .card-right { padding: 40px; }
+    .price { font-size: 2.8rem; font-weight: 800; color: #0ea5e9; }
+    .price small { font-size: 1rem; color: #64748b; font-weight: 500; }
+    .old-price { text-decoration: line-through; color: #94a3b8; margin-left: 8px; font-size: 1.2rem; }
+    .btn-buy { display: block; width: 100%; background: #22c55e; color: white; text-align: center; padding: 18px; border-radius: 10px; font-size: 1.15rem; font-weight: 700; text-decoration: none; margin-top: 24px; transition: background 0.2s; }
+    .btn-buy:hover { background: #16a34a; }
+    .note { font-size: 0.85rem; color: #64748b; margin-top: 16px; text-align: center; }
+    footer { text-align: center; padding: 20px; color: #64748b; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Educational<span>Labs</span>HDT</div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="card">
+        <div class="card-left">
+          <h1>AI Prompt Lab for Everyday Productivity</h1>
+          <p>Todo lo que necesitas para usar la IA de forma práctica desde el día 1.</p>
+          <ul>
+            <li>Mini-curso en video (45 min)</li>
+            <li>120+ prompts listos</li>
+            <li>Manual PDF + plantillas</li>
+            <li>Acceso de por vida</li>
+            <li>Actualizaciones gratis</li>
+            <li>Garantía 30 días</li>
+          </ul>
+        </div>
+        <div class="card-right">
+          <div class="price">$37 <small>USD</small> <span class="old-price">$67</span></div>
+          <p style="margin-top:8px;color:#64748b;">Pago único · Acceso inmediato</p>
+          <a href="https://buy.stripe.com/test_placeholder" class="btn-buy" id="buyBtn">Comprar ahora — Acceso inmediato</a>
+          <p class="note">Después del pago recibirás el acceso por email en menos de 2 minutos.<br>EducationalLabsHDT · Contenido 100% educativo</p>
+          <p style="margin-top:20px;text-align:center;"><a href="index.html" style="color:#0ea5e9;">← Volver a la landing</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>© 2026 EducationalLabsHDT</footer>
+  <script>
+    // Placeholder: reemplazar con link real de Stripe / Gumroad / Payhip cuando esté listo
+    document.getElementById('buyBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      alert('¡Listo para conectar tu pasarela de pago!\n\nReemplaza el enlace del botón con tu link de Stripe Payment Link, Gumroad o Payhip.\n\nEl producto ya está listo para vender.');
+    });
+  </script>
+</body>
+</html>
